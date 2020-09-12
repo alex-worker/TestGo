@@ -2,6 +2,7 @@ package def
 
 // Direction направление
 type Direction uint8
+
 const (
 	// DirUp вверх
 	DirUp Direction = iota
@@ -15,6 +16,7 @@ const (
 
 // HeroAction действия
 type HeroAction uint8
+
 const (
 	// ActionStand встать
 	ActionStand HeroAction = iota
@@ -28,7 +30,7 @@ const (
 type Hero struct {
 	// X int
 	// Y int
-	Pos Pos
-	Dir Direction
+	Pos    Pos
+	Dir    Direction
 	Sprite Cell
 }

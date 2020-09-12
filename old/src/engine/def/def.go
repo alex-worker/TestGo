@@ -34,10 +34,10 @@ type AnimateFrame struct {
 
 // AnimateTile анимированый тайл ну или нет...
 type AnimateTile struct {
-	Tick  int  // текущий таймер
-	Index int  // текущий индекс фрейма
+	Tick       int // текущий таймер
+	Index      int // текущий индекс фрейма
 	NeedUpdate bool
-	Frames []AnimateFrame // набор фреймов
+	Frames     []AnimateFrame // набор фреймов
 }
 
 // AnimateTiles набор тайлов
