@@ -11,3 +11,9 @@ docker run -it -e "DISPLAY=unix:0.0" -v="/tmp/.X11-unix:/tmp/.X11-unix:rw" activ
 docker system prune
 
 docker-compose run web bas
+
+--- for MacOS
+
+brew install pkg-config
+brew install SDL2
+brew install SDL2_ttf
